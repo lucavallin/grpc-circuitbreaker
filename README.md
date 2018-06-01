@@ -12,11 +12,13 @@ const {
 } = require('grpc-circuitbreaker');
 
 
+// Let's say rpcClient.get(request, (err, res) ...) is your function
 // You need really need .bind()!
 const command = createRpcCommand(rpcClient.get.bind(rpcClient));
+const request = new messages.YourMessage();
 
 
-command.execute(new messages.YourMessage()).then((response) => {
+command.execute(request).then((response) => {
     // do something with response
   }).catch((error) => {
     // do something with error
