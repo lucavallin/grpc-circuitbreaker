@@ -11,8 +11,10 @@ const {
   createRpcCommand,
 } = require('grpc-circuitbreaker');
 
+
 // You need really need .bind()!
 const command = createRpcCommand(rpcClient.get.bind(rpcClient));
+
 
 command.execute(new messages.YourMessage()).then((response) => {
     // do something with response
