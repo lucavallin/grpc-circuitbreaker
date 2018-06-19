@@ -25,3 +25,7 @@ command.execute(request).then((response) => {
   });
 };
 ```
+
+## Tests
+
+No tests YET, was in a hurry when I put this here, sorry.
