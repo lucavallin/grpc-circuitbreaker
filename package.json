@@ -1,0 +1,29 @@
+{
+  "name": "grpc-circuitbreaker",
+  "version": "1.0.0",
+  "description": "Circuit breaker for gRPC using hystrixjs.",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/lucavallin/grpc-circuitbreaker.git"
+  },
+  "keywords": [
+    "grpc",
+    "circuitbreaker",
+    "microservices",
+    "hystrixjs"
+  ],
+  "author": "Luca Cavallin <me@lucavall.in>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://gitlab.com/lucavallin/grpc-circuitbreaker/issues"
+  },
+  "homepage": "https://gitlab.com/lucavallin/grpc-circuitbreaker#README",
+  "dependencies": {
+    "hystrixjs": "^0.2.0",
+    "rxjs": "^5.0.0"
+  }
+}
