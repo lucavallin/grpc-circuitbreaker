@@ -1,5 +1,7 @@
 # gRPC Circuit Breaker
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/94e6f91f01fe48429a2ba739a130376d)](https://www.codacy.com/app/lucavallin/grpc-circuitbreaker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lucavallin/grpc-circuitbreaker&amp;utm_campaign=Badge_Grade)
+
 Uses [Hystrixjs](https://www.npmjs.com/package/hystrixjs) to provide the [Circuit Breaker](http://microservices.io/patterns/reliability/circuit-breaker.html) functionalities to [gRPC](https://grpc.io/) requests.
 
 ## Usage
